@@ -1,3 +1,5 @@
+model.gram
+
 # Project exclude paths
 /venv/
 /cn_dicts_temp/
