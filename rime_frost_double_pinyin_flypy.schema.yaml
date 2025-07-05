@@ -342,7 +342,7 @@ speller:
     - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⒿⓀⓁⓏⓍⒸⓋⒷⓃⓂ/qwrtyuiopsdfghjklzxcvbnm/
     # - abbrev/^(.).+$/$1/  # 首字母简拼，开启后会导致 3 个字母时 kj'x 变成 k'jx 的问题
 
-# 启用语法模型
+# 启用语法模型: https://github.com/amzxyz/RIME-LMDG
 # __include: octagram
 # #语法模型
 # octagram:
