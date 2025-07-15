@@ -1,0 +1,64 @@
+patch:
+  style/inline_preedit: true                     # 行内显示预编辑区：true；false
+  style/preedit_type: composition                # 预编辑区内容：composition（编码）； preview（选中的候选）；preview_all（全部候选）
+  style/horizontal: true
+  style/layout/border_height: 0
+  style/layout/border_width: 0
+  style/layout/corner_radius: 8
+  style/layout/round_corner: 8
+  style/layout/margin_x: 8
+  style/layout/margin_y: 8
+  style/color_scheme: black_white
+  preset_color_schemes:
+    mint_light_blue:
+      name: "蓝水鸭／Mint Light Blue (改)"
+      author: Mintimate <"Mintimate's Blog">
+      text_color: 0x6495ed  # 拼音串
+      back_color: 0xefefef  # 背景
+      label_color: 0xcac9c8  # 预选栏编号颜色
+      border_color: 0xefefef  # 边框
+      shadow_color: 0xb4000000
+      comment_text_color: 0xcac9c8  # 注解文字
+      candidate_text_color: 0x424242  # 非第一候选项
+      hilited_text_color: 0xed9564  # 拼音串高亮
+      hilited_back_color: 0xefefef  # 拼音串高亮背景
+      hilited_candidate_back_color: 0xCE6B24  # 第一候选项背景
+      hilited_candidate_text_color: 0xefefef  # 第一候选项
+      hilited_candidate_label_color: 0xcac9c8  # 第一候选项编号颜色
+      hilited_label_color: 0xcac9c8  # 第一候选项编号颜色
+      hilited_comment_text_color: 0xefefef  # 注解文字高亮
+    
+    # 修改自鼠须管配色方案
+    purity_of_form_custom:
+      name: "純粹的形式／Purity of Form Custom (雾凇拼音)"
+      author: 雨過之後、佛振
+      text_color: 0x808080
+      back_color: 0x545554
+      label_color: 0xBBBBBB
+      border_color: 0x545554
+      shadow_color: 0xb4000000
+      comment_text_color: 0x808080
+      candidate_text_color: 0xEEEEEE
+      hilited_text_color: 0xEEEEEE
+      hilited_comment_text_color: 0x808080
+      hilited_candidate_back_color: 0xE3E3E3
+      hilited_candidate_border_color: 0xE3E3E3
+      hilited_candidate_label_color: 0x4C4C4C
+      hilited_candidate_text_color: 0x000000
+      
+    black_white:
+      name: "黑白"
+      text_color: 0x6495ed  # 拼音串
+      back_color: 0xf6f6f6  # 背景
+      label_color: 0xc5c5c5  # 预选栏编号颜色
+      border_color: 0xf6f6f6  # 边框
+      shadow_color: 0xb4000000
+      comment_text_color: 0xcac9c8  # 注解文字
+      candidate_text_color: 0x424242  # 非第一候选项
+      hilited_text_color: 0xed9564  # 拼音串高亮
+      hilited_back_color: 0xefefef  # 拼音串高亮背景
+      hilited_candidate_back_color: 0x141414  # 第一候选项背景
+      hilited_candidate_text_color: 0xefefef  # 第一候选项
+      hilited_candidate_label_color: 0xcac9c8  # 第一候选项编号颜色
+      hilited_label_color: 0xcac9c8  # 第一候选项编号颜色
+      hilited_comment_text_color: 0xefefef  # 注解文字高亮
