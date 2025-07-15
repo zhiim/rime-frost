@@ -1,0 +1,11 @@
+patch:
+  # 使用万象模型: https://github.com/amzxyz/RIME-LMDG?tab=readme-ov-file
+  # 注意不可使用lts版本，需要使用公共版本
+  # 配置参考：https://emacs-china.org/t/rime/28508/3
+  grammar:
+    language: model
+    collocation_max_length: 5
+    collocation_min_length: 2
+  translator/contextual_suggestions: true
+  translator/max_homophones: 7
+  translator/max_homographs: 7

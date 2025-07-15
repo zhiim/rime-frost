@@ -1,0 +1,21 @@
+patch:
+  # 只使用小鹤双拼和白霜拼音
+  schema_list:
+    - schema: rime_frost_double_pinyin_flypy  # 小鹤双拼
+    - schema: rime_frost  # 白霜拼音（全拼）
+
+  ascii_composer/switch_key:
+    Caps_Lock: clear        # commit_code | commit_text | clear
+    Shift_L: noop           # commit_code | commit_text | inline_ascii | clear | noop
+    Shift_R: noop           # commit_code | commit_text | inline_ascii | clear | noop
+    Control_L: commit_code  # commit_code | commit_text | inline_ascii | clear | noop
+    Control_R: noop         # commit_code | commit_text | inline_ascii | clear | noop
+
+  key_binder/bindings:
+    # 使用, .翻页
+    - { when: paging, accept: comma, send: Page_Up }
+    - { when: has_menu, accept: period, send: Page_Down }
+    # 简繁切换
+    - { when: always, toggle: traditionalization, accept: Control+Shift+F }  # 切换简繁
+    # 中英文切换
+    - { when: always, toggle: ascii_punct, accept: Control+Shift+period }  # 切换中英标点
