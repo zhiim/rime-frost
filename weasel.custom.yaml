@@ -6,9 +6,9 @@ patch:
   style/layout/border_width: 0
   style/layout/corner_radius: 8
   style/layout/round_corner: 8
-  style/layout/margin_x: 8
-  style/layout/margin_y: 8
-  style/color_scheme: black_white
+  style/layout/margin_x: 6
+  style/layout/margin_y: 6
+  style/color_scheme: special
   preset_color_schemes:
     mint_light_blue:
       name: "蓝水鸭／Mint Light Blue (改)"
@@ -23,7 +23,7 @@ patch:
       hilited_text_color: 0xed9564  # 拼音串高亮
       hilited_back_color: 0xefefef  # 拼音串高亮背景
       hilited_candidate_back_color: 0xCE6B24  # 第一候选项背景
-      hilited_candidate_text_color: 0xefefef  # 第一候选项
+      hilited_candidate_text_color: 0x232323  # 第一候选项
       hilited_candidate_label_color: 0xcac9c8  # 第一候选项编号颜色
       hilited_label_color: 0xcac9c8  # 第一候选项编号颜色
       hilited_comment_text_color: 0xefefef  # 注解文字高亮
@@ -62,3 +62,21 @@ patch:
       hilited_candidate_label_color: 0xcac9c8  # 第一候选项编号颜色
       hilited_label_color: 0xcac9c8  # 第一候选项编号颜色
       hilited_comment_text_color: 0xefefef  # 注解文字高亮
+    special:
+      name: "特调"
+      text_color: 0x252525  # 拼音串
+      back_color: 0xf3f3f3  # 背景
+      label_color: 0xbab0a6  # 预选栏编号颜色
+      candidate_text_color: 0x252525  # 非第一候选项
+      hilited_candidate_back_color: 0xb3abb8  # 第一候选项背景
+      hilited_candidate_text_color: 0x252525  # 第一候选项
+      hilited_label_color: 0x5c5c5c  # 第一候选项编号颜色
+    vitality:
+      name: "活力"
+      text_color: 0x030303  # 拼音串
+      back_color: 0xf3f7f8  # 背景
+      label_color: 0x455675  # 预选栏编号颜色
+      candidate_text_color: 0x030303  # 非第一候选项
+      hilited_candidate_back_color: 0x46b6ff  # 第一候选项背景
+      hilited_candidate_text_color: 0x282534  # 第一候选项
+      hilited_label_color: 0x455675  # 第一候选项编号颜色
