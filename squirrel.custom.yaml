@@ -90,3 +90,21 @@ patch:
       hilited_comment_text_color: 0xefefef # 选中注颜色
       text_color: 0x6495ed # 拼音颜色 （inline_preedit: false）
       hilited_text_color: 0xed9564 # 选中拼音颜色 （inline_preedit: false）
+    special:
+      name: "特调"
+      text_color: 0x252525 # 拼音串
+      back_color: 0xf3f3f3 # 背景
+      label_color: 0xbab0a6 # 预选栏编号颜色
+      candidate_text_color: 0x252525 # 非第一候选项
+      hilited_candidate_back_color: 0xb3abb8 # 第一候选项背景
+      hilited_candidate_text_color: 0x252525 # 第一候选项
+      hilited_candidate_label_color: 0x5c5c5c # 第一候选项编号颜色
+    vitality:
+      name: "活力"
+      text_color: 0x030303 # 拼音串
+      back_color: 0xf3f7f8 # 背景
+      label_color: 0x455675 # 预选栏编号颜色
+      candidate_text_color: 0x030303 # 非第一候选项
+      hilited_candidate_back_color: 0x46b6ff # 第一候选项背景
+      hilited_candidate_text_color: 0x282534 # 第一候选项
+      hilited_candidate_label_color: 0x455675 # 第一候选项编号颜色
