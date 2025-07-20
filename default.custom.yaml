@@ -19,3 +19,8 @@ patch:
     - { when: always, toggle: traditionalization, accept: Control+Shift+F }  # 切换简繁
     # 中英文切换
     - { when: always, toggle: ascii_punct, accept: Control+Shift+period }  # 切换中英标点
+  switcher:
+    hotkeys:
+      # - F4
+      - Control+grave
+      - Control+Shift+grave

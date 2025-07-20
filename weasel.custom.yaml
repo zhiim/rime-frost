@@ -8,7 +8,7 @@ patch:
   style/layout/round_corner: 8
   style/layout/margin_x: 6
   style/layout/margin_y: 6
-  style/color_scheme: special
+  style/color_scheme: black_white
   preset_color_schemes:
     mint_light_blue:
       name: "蓝水鸭／Mint Light Blue (改)"
